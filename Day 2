@@ -1,0 +1,26 @@
+04 05 2018
+
+
+var login = prompt("Who's come?", " ");
+
+if(login == "Admin"){
+    var pass = prompt("Password: ", " ");
+    if(pass == "Qwerty"){
+        alert("Hello, admin");
+    }
+}else if(login == null){
+    alert("Sing-in canceled");
+}else {
+    alert("I do not know you.")
+}
+
+
+
+&& - and
+
+|| - or
+
+! - not
+
+
+Tomorrow i will start studying the cycles.
